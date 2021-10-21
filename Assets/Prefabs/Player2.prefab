@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3984856394355608208}
   - component: {fileID: 4711106551209389328}
   - component: {fileID: 325182644936133142}
+  - component: {fileID: 1555770850}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Untagged
@@ -126,7 +127,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -142,7 +143,7 @@ Animator:
   m_GameObject: {fileID: 2484588490691491039}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 35e92fad404a54d4aacea17921cf102e, type: 2}
+  m_Controller: {fileID: 9100000, guid: bad74f8d9cdf246fcb60052dd57463a0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -151,3 +152,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1555770850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2484588490691491039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6a93ffca60f945f7bd98e8a5f4f004a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveForce: 10
+  jumpForce: 11
