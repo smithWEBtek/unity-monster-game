@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{71452D25-D52F-F0E7-4B92-9313345AC1C4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFollow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MonsterSpawner.cs">
     <Files>
       <File FileName="Assets/Scripts/Player.cs" Line="104" Column="44" />
-      <File FileName="Assets/Scripts/CameraFollow.cs" Line="19" Column="5" />
+      <File FileName="Assets/Scripts/CameraFollow.cs" Line="31" Column="1" />
+      <File FileName="Assets/Scripts/Monster.cs" Line="18" Column="6" />
+      <File FileName="Assets/Scripts/MonsterSpawner.cs" Line="32" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +12,7 @@
           <Node name="MonsterChase" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="CameraFollow.cs" selected="True" />
+                <Node name="MonsterSpawner.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9203133d-fd85-484f-a520-bb95ceb11336" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cc7ba4fb-17cd-4de6-a64d-3a73a7683a36" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
