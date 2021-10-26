@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     private SpriteRenderer sr;
     private string WALK_ANIMATION = "Walk";
     private string GROUND_TAG = "Ground";
+    private string ENEMY_TAG = "Enemy";
 
     private bool isGrounded = true;
 
@@ -102,6 +103,10 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag(GROUND_TAG)){
             isGrounded = true;
             Debug.Log("We landed on ground");
-        }  
+        }
+
+        if (collision.gameObject.CompareTag(ENEMY_TAG)) {
+            Destroy(gameObject);
+        }
     }
 }

@@ -10,7 +10,7 @@ public class MonsterSpawner : MonoBehaviour
     private GameObject spawnedMonster;
 
     [SerializeField]
-    private Transform LeftPos, RightPos;
+    private Transform leftPos, rightPos;
 
     private int randomIndex;
     private int randomSide;
@@ -38,17 +38,17 @@ public class MonsterSpawner : MonoBehaviour
 
             spawnedMonster = Instantiate(monsterReference[randomIndex]);
 
-            // left side
+            //left side
             if (randomSide == 0)
             {
-                spawnedMonster.transform.position = LeftPos.position;
+                spawnedMonster.transform.position = leftPos.position;
                 spawnedMonster.GetComponent<Monster>().speed = Random.Range(4, 10);
 
             }
             else
             {
                 // right side
-                spawnedMonster.transform.position = RightPos.position;
+                spawnedMonster.transform.position = rightPos.position;
                 spawnedMonster.GetComponent<Monster>().speed = -Random.Range(4, 10);
                 spawnedMonster.transform.localScale = new Vector3(-1f, 1f, 1f);
             }
